@@ -1,7 +1,28 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../../css/Cart/Cart.css'
+import Checkout from '../CheckoutForm/Checkout';
 
 function Cart(props) {
+
+
+    const [showform, setShowForm] = useState(false);
+    const [value, setValue] = useState("");
+
+    const submitOrder = (e) => {
+        e.preventDefault();
+        // console.log(value);
+        const order = {
+            name: value.name,
+            email: value.email
+        }
+        console.log(order);
+    }
+
+    const handleChange = (e) => {
+        console.log(e.target.name);
+        setValue((prevState) => ({ ...prevState, [e.target.name]: e.target.value }));
+
+    }
     return (
         <div className="cart-wrapper">
             <div className="cart-title">
@@ -30,6 +51,19 @@ function Cart(props) {
 
 
             </div>
+            {
+                props.cartItems.length !== 0 && (
+                    <div className='cart-footer'>
+                        <div className='cart-total'>Total Price : ${props.cartItems.reduce((acc, p) => {
+                            return acc + p.price
+                        }, 0)}</div>
+                        <button onClick={() => setShowForm(true)}>Select Product</button>
+                    </div>
+                )
+            }
+
+            <Checkout value={value} showform={showform} submitOrder={submitOrder} setShowForm={setShowForm} handleChange={handleChange} />
+
         </div>
     )
 }
