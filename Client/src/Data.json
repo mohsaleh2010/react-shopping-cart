@@ -6,8 +6,8 @@
         "desc": "this is product 1",
         "price": "30",
         "sizes": [
-            "small",
-            "midium"
+            "S",
+            "M"
         ]
     },
     {
@@ -17,8 +17,9 @@
         "desc": "this is product 2",
         "price": "40",
         "sizes": [
-            "small",
-            "larg"
+            "S",
+            "L",
+            "M"
         ]
     },
     {
@@ -28,8 +29,8 @@
         "desc": "this is product 3",
         "price": "50",
         "sizes": [
-            "midium",
-            "larg"
+            "M",
+            "L"
         ]
     },
     {
@@ -39,8 +40,8 @@
         "desc": "this is product 4",
         "price": "60",
         "sizes": [
-            "midium",
-            "larg"
+            "m",
+            "L"
         ]
     }
 ]
