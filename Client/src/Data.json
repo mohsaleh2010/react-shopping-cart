@@ -1,33 +1,46 @@
-[{
-    "id":"id1",
-    "title":"product 1",
-    "imageUrl":"/images/product1.jpg",
-    "desc":"this is product 1",
-    "price":"30",
-    "sizes":["small","midium"]
-},
-{
-    "id":"id2",
-    "title":"product 2",
-    "imageUrl":"/images/product2.jpg",
-    "desc":"this is product 2",
-    "price":"40",
-    "sizes":["small","larg"]
-},
-{
-    "id":"id3",
-    "title":"product 3",
-    "imageUrl":"/images/product3.jpg",
-    "desc":"this is product 3",
-    "price":"50",
-    "sizes":["midium","larg"]
-},
-{
-    "id":"id4",
-    "title":"product 4",
-    "imageUrl":"/images/product4.jpg",
-    "desc":"this is product 4",
-    "price":"60",
-    "sizes":["midium","larg"]
-}
+[
+    {
+        "id": "id1",
+        "title": "product 1",
+        "imageUrl": "/images/product1.jpg",
+        "desc": "this is product 1",
+        "price": "30",
+        "sizes": [
+            "small",
+            "midium"
+        ]
+    },
+    {
+        "id": "id2",
+        "title": "product 2",
+        "imageUrl": "/images/product2.jpg",
+        "desc": "this is product 2",
+        "price": "40",
+        "sizes": [
+            "small",
+            "larg"
+        ]
+    },
+    {
+        "id": "id3",
+        "title": "product 3",
+        "imageUrl": "/images/product3.jpg",
+        "desc": "this is product 3",
+        "price": "50",
+        "sizes": [
+            "midium",
+            "larg"
+        ]
+    },
+    {
+        "id": "id4",
+        "title": "product 4",
+        "imageUrl": "/images/product4.jpg",
+        "desc": "this is product 4",
+        "price": "60",
+        "sizes": [
+            "midium",
+            "larg"
+        ]
+    }
 ]
