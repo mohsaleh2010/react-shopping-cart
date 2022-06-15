@@ -5,6 +5,7 @@
         "imageUrl": "/images/product1.jpg",
         "desc": "this is product 1",
         "price": "30",
+        "Qnty": "0",
         "sizes": [
             "S",
             "M"
@@ -16,6 +17,7 @@
         "imageUrl": "/images/product2.jpg",
         "desc": "this is product 2",
         "price": "40",
+        "Qnty": "0",
         "sizes": [
             "S",
             "L",
@@ -28,6 +30,7 @@
         "imageUrl": "/images/product3.jpg",
         "desc": "this is product 3",
         "price": "50",
+        "Qnty": "0",
         "sizes": [
             "M",
             "L"
@@ -39,6 +42,7 @@
         "imageUrl": "/images/product4.jpg",
         "desc": "this is product 4",
         "price": "60",
+        "Qnty": "0",
         "sizes": [
             "m",
             "L"
